@@ -3,5 +3,11 @@ import useLocalStorage from '../hooks/useLocalStorage';
 
 
 export default useDarkMode = (key, initalValue) => {
-const [darkMode, setDarkMode] = useLocalStorage('enabled')
+const [darkMode, setDarkMode] = useLocalStorage(key,initalValue)
+
+ useEffect(() => {
+
+  }, []);
+
+
 };

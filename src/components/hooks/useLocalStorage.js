@@ -11,5 +11,5 @@ const setValue = value =>{
     window.localStorage.setItem(key,JSON.stringigy(value));
 };
 
-return [storedValue]
+return [storedValue, setValue]
 };

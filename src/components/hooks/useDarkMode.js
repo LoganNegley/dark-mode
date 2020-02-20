@@ -13,4 +13,5 @@ document.querySelector('body').classList.remove('dark-mode')
 }
   }, [darkMode]);
 
+return [storedValue, setValue]
 };

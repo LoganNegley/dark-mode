@@ -6,7 +6,7 @@ export const useDarkMode = (key, initalValue) => {
 const [darkMode, setDarkMode] = useLocalStorage(key,initalValue)
 
  useEffect(() => {
-if(darkMode === 'ture'){
+if(darkMode){
 document.querySelector('body').classList.add('dark-mode')
 }else{
 document.querySelector('body').classList.remove('dark-mode')
